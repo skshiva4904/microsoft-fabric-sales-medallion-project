@@ -7,32 +7,33 @@ This project demonstrates an end-to-end data analytics pipeline built using Micr
 Data Source → Bronze Layer → Silver Layer → Gold Layer → Semantic Model → Power BI Dashboard
 
 ## Technologies Used
-Microsoft Fabric
-Dataflow Gen2
-Lakehouse
-SQL Endpoint
-Power BI
-DAX
+Microsoft Fabric, 
+Dataflow Gen2, 
+Lakehouse, 
+SQL Endpoint, 
+Power BI, 
+DAX.
 
 ## Project Workflow
 
-Bronze Layer
+Bronze Layer: 
 Raw sales data is ingested into the Lakehouse using Dataflow.
 
-Silver Layer
+Silver Layer: 
 Data cleaning and transformation are performed to standardize the dataset.
 
-Gold Layer
+Gold Layer: 
 Business-ready aggregated tables are created for reporting.
 
-Pipeline
+Pipeline: 
 A Fabric pipeline orchestrates the dataflow execution.
 
-Semantic Model
+Semantic Model: 
 The semantic model defines relationships and measures for analytics.
 
-Dashboard
+Dashboard: 
 Power BI dashboard visualizes KPIs such as revenue, product performance, and sales trends.
 
 ## Author
+
 Shivratna Kedar
